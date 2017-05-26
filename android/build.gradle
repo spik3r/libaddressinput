@@ -12,6 +12,11 @@
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
+ *
+ * Add the below two lines if you want to allow it to build on jitpack as .aar
+ * See `https://jitpack.io/docs/ANDROID/`
+ * apply plugin: 'com.github.dcendents.android-maven'
+ * group='com.github.YourUsername'
  */
 
 buildscript {
@@ -25,8 +30,6 @@ buildscript {
 }
 
 apply plugin: 'com.android.library'
-apply plugin: 'com.github.dcendents.android-maven'
-group='com.github.spik3r'
 
 tasks.withType(JavaCompile) {
     options.encoding = 'UTF-8'

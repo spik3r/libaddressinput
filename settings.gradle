@@ -17,5 +17,7 @@
 /*
  * The Android address input widget is formed from the common (non-UI) classes
  * and the Android specific classes.
+ *
+ * Removed: 'android', for use in Java only project.
  */
-include 'android', 'common'
+include 'common'
