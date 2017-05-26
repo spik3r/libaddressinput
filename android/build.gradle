@@ -25,6 +25,8 @@ buildscript {
 }
 
 apply plugin: 'com.android.library'
+apply plugin: 'com.github.dcendents.android-maven'
+group='com.github.spik3r'
 
 tasks.withType(JavaCompile) {
     options.encoding = 'UTF-8'

@@ -23,3 +23,13 @@ allprojects {
     mavenLocal()
   }
 }
+
+buildscript {
+  repositories {
+    jcenter()
+  }
+  dependencies {
+    classpath 'com.github.dcendents:android-maven-gradle-plugin:1.5' // Add this line
+  }
+
+}
